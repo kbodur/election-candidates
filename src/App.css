@@ -2,7 +2,9 @@
 body{
 
     background-color: rgb(223, 199, 205);
-
+}
+.b{
+   padding: 20px;
 }
 .navbar{
    background-color: rgb(1, 63, 150);
@@ -14,6 +16,7 @@ body{
    background-color: rgb(1, 63, 150);;
 }
 .card{
+    
     background-color: white;
     border: 1px solid transparent;
     border-radius: 5px;
