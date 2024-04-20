@@ -16,7 +16,7 @@ const List = () => {
     <div className='card-list'>
       {candidateNames.map((name, index) => (
         <div key={index} className="card">
-          <img className='img' src="person.jpg" width={'120px'} />
+          <img className='img' src="src/assets/person.jpg" width={'120px'} />
           <p>{name}</p>
         </div>
       ))}
