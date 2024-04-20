@@ -1,4 +1,5 @@
 import React from 'react'
+import img from '../assets/person.jpg'
 
 const List = () => {
   const candidateNames = [
@@ -16,7 +17,7 @@ const List = () => {
     <div className='card-list'>
       {candidateNames.map((name, index) => (
         <div key={index} className="card">
-          <img className='img' src="src/assets/person.jpg" width={'120px'} />
+          <img className='img' src={img} width={'120px'} />
           <p>{name}</p>
         </div>
       ))}

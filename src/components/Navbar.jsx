@@ -1,10 +1,13 @@
 import React from 'react'
+import imgUrl from '../assets/image.png'
+
 
 
 const Navbar = () => {
+
   return (
     <div className='navbar'>
-      <img className='flag' src="src/assets/image.png" width={'40px'} />
+      <img className='flag' src={imgUrl} width={'40px'} />
 
     </div>
   )
