@@ -6,6 +6,7 @@ body{
 }
 .navbar{
    background-color: rgb(1, 63, 150);
+   height: 40px;
 }
 .flag{
    display: block;
